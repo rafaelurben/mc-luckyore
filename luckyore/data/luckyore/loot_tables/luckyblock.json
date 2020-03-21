@@ -1,0 +1,131 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:tag",
+              "name": "luckyore:all",
+              "expand": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:armor_stand",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{luckyore:1}"
+                },
+                {
+                  "function": "set_name",
+                  "name": [
+                    {
+                      "text": "--",
+                      "color": "gold",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": " LuckyBlock ",
+                      "color": "gold",
+                      "bold": true,
+                      "obfuscated": false
+                    },
+                    {
+                      "text": "--",
+                      "color": "gold",
+                      "obfuscated": true
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:armor_stand",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{luckyore:2}"
+                },
+                {
+                  "function": "set_name",
+                  "name": [
+                    {
+                      "text": "--",
+                      "color": "gold",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": " LuckyBlock ",
+                      "color": "gold",
+                      "bold": true,
+                      "obfuscated": false
+                    },
+                    {
+                      "text": "--",
+                      "color": "gold",
+                      "obfuscated": true
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.6
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:armor_stand",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{luckyore:3}"
+                },
+                {
+                  "function": "set_name",
+                  "name": [
+                    {
+                      "text": "--",
+                      "color": "gold",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": " LuckyBlock ",
+                      "color": "gold",
+                      "bold": true,
+                      "obfuscated": false
+                    },
+                    {
+                      "text": "--",
+                      "color": "gold",
+                      "obfuscated": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
