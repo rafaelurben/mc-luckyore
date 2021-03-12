@@ -1,6 +1,6 @@
 # LuckyOre
 
-Die Dokumentation zum Datapack findet ihr [hier](https://rafaelurben.github.io/minecraft/datapacks/luckyore)
+Ores = LuckyBlocks &lt;- That's literally the entire description.
 
 ## Cooperation
 
